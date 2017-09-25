@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background: url('../images/bg.jpg') #000;
+    height: 100vh;
+}
+
+.content {
+    color: #fff;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.social {
+    text-align: center;
+    position: relative;
+}
+
+.social a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s linear;
+    
+    font-size: 180%;
+    display: inline-block;
+    text-decoration: none;
+
+    margin: 0 15px;
+}
+
+.social a:hover {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.social a.i-vk {
+    font-size: 205%;
+    position: relative;
+    top: 2px;
+}
+
+.tippy-tooltip {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.tippy-popper[x-placement=bottom] .tippy-tooltip [x-arrow] {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.6);
+}
+.tippy-popper[x-placement=top] .tippy-tooltip [x-arrow] {
+    border-top: 7px solid rgba(0, 0, 0, 0.6);
+}
