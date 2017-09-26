@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     background: url('../images/bg.jpg') #000;
+    background-size: cover;
     height: 100vh;
 }
 
